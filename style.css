@@ -1,0 +1,422 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+.navbar {
+  background: hsl(217, 28%, 15%);
+  display: flex;
+  align-items: center;
+  height: 80px;
+  justify-content: space-between;
+}
+
+.navbar-logo {
+  padding: 0 50px;
+}
+
+.navbar-logo img {
+  width: 130px;
+}
+
+.links {
+  padding: 0 30px;
+}
+
+.links a {
+  margin-right: 50px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+/* Hero */
+
+.container {
+  background: hsl(217, 28%, 15%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.img-cntr {
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.img-cntr img {
+  width: 90%;
+}
+
+.pg-cntr {
+  text-align: center;
+  width: 35%;
+  color: #fff;
+  z-index: 3;
+}
+
+.pg-cntr h3 {
+  font-weight: 700;
+  font-size: 20px;
+  padding: 15px 0;
+}
+
+.pg-cntr p {
+  font-size: 14px;
+  padding: 10px 0;
+}
+
+.cntr-btn {
+  padding: 10px 80px;
+  cursor: pointer;
+  margin: 15px 0;
+  font-size: 14px;
+  color: #fff;
+  background: hsl(198, 60%, 50%);
+  border: none;
+  border-radius: 50px;
+}
+
+.cntr img {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  height: 200px;
+}
+
+/* icon widgets  */
+
+.ic-cntr {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  background: hsl(218, 28%, 13%);
+  padding: 50px 15px;
+  justify-content: center;
+}
+
+.g-1 {
+  width: 400px;
+  text-align: center;
+  margin: 50px auto;
+  color: #fff;
+}
+
+.g-1 h4 {
+  padding: 10px 0;
+}
+
+.g-1 span {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+/* testimonials */
+.test-cntr {
+  background: hsl(218, 28%, 13%);
+  height: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.ft-tst-cntr {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  gap: 50px;
+  color: #fff;
+}
+
+.tst-pg-cntr h3 {
+  width: 70%;
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+.tst-pg-cntr p {
+  font-size: 14px;
+  margin: 20px 0;
+  width: 80%;
+  line-height: 20px;
+}
+.tst-pg-cntr a {
+  color: hsl(198, 60%, 50%);
+}
+
+/* CARDS */
+
+.card-cntr {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 150px 50px;
+  margin-bottom: 100px;
+  color: #fff;
+  gap: 10px;
+}
+.icon img {
+  position: absolute;
+  top: -20px;
+  left: -20px;
+}
+
+.c-1 {
+  width: 400px;
+  background: hsl(219, 30%, 18%);
+  padding: 20px;
+  z-index: 2;
+  position: relative;
+}
+
+.txt-cntr p {
+  padding: 30px 0;
+}
+
+.ppl-cntr {
+  display: flex;
+  align-items: center;
+}
+
+.img img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin: 0 15px;
+}
+
+.prfl-cntr span {
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+}
+
+.email-card {
+  position: absolute;
+  bottom: -150px;
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 50px;
+  background: hsl(217, 28%, 15%);
+  color: #fff;
+  box-shadow: 10px 10px 30px #000;
+}
+
+.email-info {
+  padding: 30px;
+}
+
+.email-p h2 {
+  padding: 10px;
+  font-size: 40px;
+}
+.email-p {
+  padding: 20px;
+}
+.email-p p {
+  padding: 10px;
+  font-size: 14px;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.email-input input {
+  width: 50%;
+  padding: 10px 15px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  margin: 0 20px;
+}
+.email-input button {
+  padding: 10px 15px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  width: 20%;
+  color: #fff;
+  background: hsl(198, 60%, 50%);
+}
+
+.footer {
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  justify-content: center;
+  background: hsl(216, 53%, 9%);
+  padding: 150px 50px 0 50px;
+  color: #fff;
+}
+
+.f1 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.f1 img {
+  margin: 10px 0;
+}
+.f1 p {
+  font-size: 14px;
+  margin: 20px 0;
+}
+
+.f2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.i-1 {
+  margin: 10px 0;
+}
+.i-1 span {
+  margin: 0 10px;
+}
+
+.list {
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+.list-s {
+  width: 50%;
+  margin-top: 10px;
+}
+
+.f4 {
+  font-size: 30px;
+}
+.f4 i {
+  padding: 10px;
+  border-radius: 50%;
+  outline: #fff;
+  border: 1px solid #fff;
+  margin: 0 10px;
+}
+
+@media screen and (max-width: 680px) {
+  .navbar-logo {
+    padding: 0 20px;
+  }
+  .navbar-logo img {
+    width: 100px;
+  }
+  .links {
+    padding: 0 20px;
+  }
+  .links a {
+    margin-right: 20px;
+    font-size: 12px;
+  }
+
+  .pg-cntr {
+    width: 80%;
+  }
+
+  .ic-cntr {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 30px 15px;
+  }
+
+  .ft-tst-cntr {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 30px;
+    gap: 20px;
+  }
+  .tst-img img {
+    width: 100%;
+  }
+  .tst-pg-cntr h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .tst-pg-cntr p {
+    width: 100%;
+  }
+
+  .card-cntr {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 80px 20px;
+    margin-bottom: 250px;
+    color: #fff;
+    gap: 20px;
+  }
+
+  .email-info {
+    padding: 20px;
+  }
+
+  .email-p h2 {
+    font-size: 30px;
+  }
+  .email-info p {
+    width: 100%;
+  }
+  .email-input {
+    display: block;
+  }
+  .email-input input {
+    width: 100%;
+    margin: 0;
+  }
+  .email-input button {
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    width: 80%;
+    margin-top: 15px;
+  }
+
+  .footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-top: 150px;
+  }
+
+  .f1 img {
+    width: 100px;
+  }
+  .f1 p {
+    font-size: 12px;
+  }
+
+  .f2 {
+    font-size: 12px;
+    padding: 20px 0;
+  }
+
+  .list {
+    padding-top: 20px;
+    font-size: 12px;
+    margin: 0 auto;
+  }
+  .list-s {
+    width: 30%;
+    margin: 10px;
+  }
+
+  .f4 {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+  }
+}
